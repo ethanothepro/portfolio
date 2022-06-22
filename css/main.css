@@ -40,9 +40,44 @@ h1{
    
 }
 
-.main img{
+.normal-image {
     width: 100%;
+    
 
+}
+
+.cropped-image{
+    width: 100%;
+    display: none;
+}
+
+
+
+h2{
+    font-weight: 300;
+    font-size: 2em;
+    text-transform: uppercase;
+}
+
+.featured-title{
+    font-weight: 300;
+    text-align: center;
+}
+
+
+
+@media (min-width:900px) {
+    .normal-image {
+        display: none;
+        
+    
+    }
+    
+    .cropped-image{
+        width: 100%;
+        display: block;
+    }
+    
 }
 
 
