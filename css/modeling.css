@@ -7,14 +7,72 @@ body{
 
 .header{
     background: white;
-    padding: 1em;
-    
     
 }
 
+.menu{
+    background-color: rgb(237, 238, 238);
+    padding: 0.5em;
+    text-align: center;
+}
+
+input[type = button]{
+
+    font-family: 'Montserrat', sans-serif;
+    border: none;
+    background: transparent;
+    font-size: 80%;
+    
+}
+
+input[type = button]:hover{
+
+    opacity: .5;
+    cursor: pointer;
+}
+
+
+
 h1{
-    font-weight: 300;
+    font-weight: 400;
     text-align: center;
     text-transform: uppercase;
+   
+}
+
+.display-container{
+    vertical-align: middle;
+}
+
+.buttons{
+    position: relative;
+    text-align: center;     
+}
+
+.slide-button-left
+{
+    background-color:transparent ;
+    border: none;
+    color: black;
+    margin-right: 50%;
+    position: relative;
     
+}
+
+.slide-button-left:hover{
+    color: rgba(0, 0, 0, 0.618);
+}
+
+.slide-button-right
+{
+    background-color:transparent ;
+    border: none;
+    color: black;
+    position: relative;
+    margin-left:
+    
+}
+
+.slide-button-right:hover{
+    color: rgba(0, 0, 0, 0.618);
 }

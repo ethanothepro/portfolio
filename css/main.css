@@ -7,16 +7,42 @@ body{
 
 .header{
     background: white;
-    padding: 1em;
-    
     
 }
 
+.menu{
+    background-color: rgb(237, 238, 238);
+    padding: 0.5em;
+    text-align: center;
+}
+
+input[type = button]{
+
+    font-family: 'Montserrat', sans-serif;
+    border: none;
+    background: transparent;
+    font-size: 80%;
+    
+}
+
+input[type = button]:hover{
+
+    opacity: .5;
+    cursor: pointer;
+}
+
+
+
 h1{
-    font-weight: 300;
+    font-weight: 400;
     text-align: center;
     text-transform: uppercase;
-    
+   
+}
+
+.main img{
+    width: 100%;
+
 }
 
 
