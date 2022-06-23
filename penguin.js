@@ -1,8 +1,3 @@
-
-//Final Project
-//Section 03 Group 7
-//Masato, Thomas, Etham, Liam
-// character variables
 var xTree = 0;
 var treeArray =[];
 var treeSize = [];

@@ -1,8 +1,9 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&family=Raleway:wght@200;300;400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;700&family=Raleway:wght@200;300;400;500&display=swap');
 
 body{
     font-family: 'Raleway', sans-serif ;
     margin: 0;
+    text-align: center;
 }
 
 .header{
@@ -78,17 +79,34 @@ h3{
 
 .coding-showcase{
     display: grid;
+    background: rgb(241, 241, 241);
+
 }
+
 
 .penguin{
     width: 100%;
-   
-    
+    height: auto;
 }
 
 .penguin:hover{
     cursor: pointer;
+
+    opacity: 0.5;
   
+}
+
+.links{
+    padding-top: 2em;
+    font-family: 'Montserrat',sans-serif;
+}
+
+.links h5{
+    font-weight: 400;
+}
+
+.linkedin:hover{
+    cursor: pointer;
 }
 
 
@@ -103,6 +121,10 @@ h3{
     .cropped-image{
         width: 100%;
         display: block;
+    }
+
+    .img1-container{
+        width: 33%;
     }
     
 }
