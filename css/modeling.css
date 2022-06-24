@@ -101,6 +101,7 @@ h1{
 
 .slide-button-left:hover{
     color: rgba(0, 0, 0, 0.618);
+    cursor: pointer;
 }
 
 .slide-button-right
@@ -118,6 +119,7 @@ h1{
 
 .slide-button-right:hover{
     color: rgba(0, 0, 0, 0.618);
+    cursor: pointer;
 }
 
 
