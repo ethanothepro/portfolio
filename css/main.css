@@ -8,6 +8,9 @@ body{
 
 .header{
     background: white;
+    padding-top: 0.3em;
+    position: fixed;
+    width: 100%;
     
 }
 
@@ -24,10 +27,6 @@ body{
     background: transparent;
     font-size: 80%;
 
-    -webkit-appearance: none;
-    -moz-appearance: none;
-    appearance: none;
-  
     
 }
 
@@ -53,8 +52,10 @@ h1{
 }
 
 .cropped-image{
+
     width: 100%;
     display: none;
+
 }
 
 
@@ -96,12 +97,15 @@ h3{
   
 }
 
-.links{
+.bottom-page{
+    
     padding-top: 2em;
     font-family: 'Montserrat',sans-serif;
 }
 
-.links h5{
+.bottom-page h5{
+   
+
     font-weight: 400;
 }
 
@@ -121,6 +125,7 @@ h3{
     .cropped-image{
         width: 100%;
         display: block;
+        padding-top: 7.5em;
     }
 
     .img1-container{

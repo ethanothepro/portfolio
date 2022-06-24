@@ -3,11 +3,15 @@
 body{
     font-family: 'Raleway', sans-serif ;
     margin: 0;
+    text-align: center;
 }
 
 .header{
     background: white;
-    
+    padding-top: 0.3em;
+    position: fixed;
+    z-index: 1;
+    width: 100%;
 }
 
 .menu{
@@ -40,22 +44,56 @@ h1{
    
 }
 
-.display-container{
-    vertical-align: middle;
+
+.title{
+    padding-top: 11em ;
+    padding-bottom: 5em;
+    
 }
 
-.buttons{
+.title h2{
+    text-transform: uppercase;
+    font-weight: 300;
+    font-size: 3em;
+}
+
+.title h3{
+    font-weight: 300;
+}
+
+/*-----------------------------------------*/
+
+
+
+
+.display-container{
     position: relative;
-    text-align: center;     
+    text-align: center;
+    
+}
+
+.mySlides{
+    width: 100%;
+   
+    
 }
 
 .slide-button-left
 {
-    background-color:transparent ;
+    
+    color: white;
     border: none;
-    color: black;
-    margin-right: 50%;
-    position: relative;
+    background: transparent;
+    color: white;
+    position: absolute;
+    top: 45%;
+    left: 1%;
+    font-size: 4rem;
+    opacity: 0.7;
+    
+    
+    
+    
     
 }
 
@@ -67,11 +105,45 @@ h1{
 {
     background-color:transparent ;
     border: none;
-    color: black;
-    position: relative;
+    color: white;
+    position: absolute;
+    top: 45%;
+    right: 1%;
+    font-size: 4rem;
+    opacity: 0.7;
     
 }
 
 .slide-button-right:hover{
     color: rgba(0, 0, 0, 0.618);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.bottom-page{
+    
+    padding-top: 2em;
+    font-family: 'Montserrat',sans-serif;
+}
+
+.bottom-page h5{
+   
+
+    font-weight: 400;
+}
+
+.linkedin:hover{
+    cursor: pointer;
 }

@@ -3,12 +3,15 @@
 body{
     font-family: 'Raleway', sans-serif ;
     margin: 0;
+    text-align: center;
+ 
 }
 
 .header{
     background: white;
-    
+    padding-top: 0.3em;
 }
+
 
 .menu{
     background-color: rgb(237, 238, 238);
@@ -42,3 +45,14 @@ h1{
     text-transform: uppercase;
    
 }
+
+
+
+
+
+
+
+
+
+
+
