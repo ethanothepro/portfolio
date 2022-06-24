@@ -69,6 +69,8 @@ h1{
 .display-container{
     position: relative;
     text-align: center;
+    width: 75%;
+    transform: translateX(16.75%);
     
 }
 
