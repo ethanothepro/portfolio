@@ -129,7 +129,11 @@ h3{
     }
 
     .img1-container{
-        width: 33%;
+        width: 50%;
+    }
+
+    .img2-container{
+        width: 50%;
     }
     
 }
